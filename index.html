@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="css/main.css">
+        <link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        <div class="fallback-message">
+            <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+            <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+        </div>
+        <div id="impress">
+            <div id="Constats" class="step" data-x="0" data-y="0" data-scale="6" data-rotate="20">
+                <h3>Quelques constats sur nos applications...</h3>
+            </div>
+
+            <div id="Constat-1" class="step" data-x="9000" data-y="0" data-scale="6" data-rotate="20">
+                <h2>Constat #1</h2>
+                <b>Single-Page Applications</b>
+                <img src="img/01.png">
+                <img src="img/02.png">
+                <img src="img/03.png">
+                <b>Javascript !</b>
+            </div>
+
+            <div id="Constat-2" class="step" data-x="18000" data-y="0" data-scale="6" data-rotate="20">
+                <h2>Constat #2</h2>
+                <b>Javascript &nbsp; > &nbsp;<small>C#</small></b>
+                <div>
+                    <p>Exemple sur Poplee</p>
+                    <div id="js">
+                        <p><span class="orange">JS : 54%</span></p>
+                        <img src="img/05.png">
+                        <span class="orange">122 873 caractères</span>
+                        <span>WidgetPoplee.js</span>
+                        <span>WidgetPopleeSettings.js</span>
+                        <span>WidgetPopleeStats.js</span>
+                    </div>
+                    <div id="c#">
+                        <p><span class="orange">C# : 46%</span></p>
+                        <img src="img/04.png">
+                        <span class="orange">106 088 caractères</span>
+                        <span >WidgetPoplee.aspx.cs + WidgetPopleeHandler.ashx.cs</span>
+                        <span>WidgetPopleeSettings.aspx.cs + WidgetPopleeSettingsHandler.ashx.cs</span>
+                        <span>WidgetPopleeStats.aspx.cs + WidgetPopleeStatsHandler.ashx.cs</span>
+                        <span>WidgetPopleeStatsSearchResults.aspx.cs</span>
+                    </div>
+                </div>
+            </div>
+
+            <div id="Constat-3" class="step" data-x="27000" data-y="0" data-scale="6" data-rotate="20">
+                <h2>Constat #3</h2>
+                <b>Javascript spaghetti...</b>
+                <div>
+                    <div id="text">
+                        <p>des données</p>
+                        <p>de la logique</p>
+                        <p>des requêtes AJAX</p>
+                        <p>des suites de callbacks jQuery</p>
+                        <p>de la gestion d’events</p>
+                        <p>de la manipulation du DOM</p>
+                        <p>du HTML</p>
+                        <p>de la gestion d’erreurs</p>
+                        <p>etc...</p>
+                    </div>
+                    <div id="img">
+                        <img src="img/06.jpg">
+                    </div>
+                </div>
+            </div>
+
+            <div id="Consequences" class="step" data-x="36000" data-y="0" data-scale="6" data-rotate="20">
+                <h2>Conséquences de tout ça...</h2>
+                <p><span class="orange">1# : </span>Portes ouvertes aux bugs, mauvaises pratiques, répétition de code...</p>
+                <p><span class="orange">2# : </span>Code difficilement lisible & maintenable</p>
+                <p><span class="orange">3# : </span>Code difficilement optimisable > apps moins performantes</p>
+                <img src="img/07.gif">
+            </div>
+
+            <div id="Solution" class="step" data-x="45000" data-y="0" data-scale="6" data-rotate="20">
+                <h2>La solution</h2>
+                <h3>Ajouter une couche d'abstraction à notre JS</h3>
+                <img src="img/08.gif">
+            </div>
+
+            <div id="Intro" class="step" data-x="54000" data-y="0" data-scale="6" data-rotate="20">
+                <div>
+                    <p>Du Javascript</p>
+                    <p>spaghetti à</p>
+                    <h2>Backbone.js</h2>
+                </div>
+            </div>
+
+        </div>
+
+        <script src="js/impress.js"></script>
+        <script>impress().init();</script>
+    </body>
+</html>
